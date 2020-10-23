@@ -754,12 +754,13 @@ namespace SeventhHeaven.Classes
         internal bool InstallLatestGameDriver(string backupFolderPath)
         {
             string pathToLatestFile = Path.Combine(Sys.PathToGameDriverFolder, "FFNx.dll");
-            string pathToLatestCfg = Path.Combine(Sys.PathToGameDriverFolder, "GameDriver.cfg");
+            string pathToLatestCfg = Path.Combine(Sys.PathToGameDriverFolder, "GameDriver.toml");
             string pathToCurrentFile = Path.Combine(InstallPath, "FFNx.dll");
-            string pathToCurrentCfg = Path.Combine(InstallPath, "FFNx.cfg");
+            string pathToCurrentCfg = Path.Combine(InstallPath, "FFNx.toml");
 
             string pathToOldCustomDriver = Path.Combine(InstallPath, "7H_GameDriver.dll");
             string pathToOldCustomCfg = Path.Combine(InstallPath, "7H_GameDriver.cfg");
+            string pathToOldFFNxCfg = Path.Combine(InstallPath, "FFNx.cfg");
 
             if (!File.Exists(pathToLatestFile))
             {
@@ -825,6 +826,12 @@ namespace SeventhHeaven.Classes
                     File.Delete(pathToOldCustomCfg);
                 }
 
+                if (File.Exists(pathToOldFFNxCfg))
+                {
+                    Logger.Info($"deleting {pathToOldFFNxCfg} ...");
+                    File.Delete(pathToOldFFNxCfg);
+                }
+
                 // backup existing driver dll to backup folder
                 if (File.Exists(pathToCurrentFile))
                 {
@@ -879,8 +886,8 @@ namespace SeventhHeaven.Classes
                                                                         "FFNx.MENU.cursor_vertical_center.txt",
                                                                         "FFNx.MENU.save_everywhere.txt",
                                                                         "FFNx.reg",
-                                                                        "FFNx.cfg",
-                                                                        "GameDriver.cfg" };
+                                                                        "FFNx.toml",
+                                                                        "GameDriver.toml" };
 
                 List<string> gameDriverFoldersToIgnore = new List<string>() { "ff8",
                                                                         "de",

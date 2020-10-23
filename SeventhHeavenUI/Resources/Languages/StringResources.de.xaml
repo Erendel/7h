@@ -4,7 +4,7 @@
 
     <!--Main Window Buttons-->
     <system:String x:Key="Play">Starten</system:String>
-    <system:String x:Key="PlayWithMods">Starten mit Mods (Standart)</system:String>
+    <system:String x:Key="PlayWithMods">Starten mit Mods (Standard)</system:String>
     <system:String x:Key="PlayWithNoMods">Starten ohne Mods</system:String>
     <system:String x:Key="PlayWithDebugLog">Starten mit Debug Log</system:String>
     <system:String x:Key="PlayWithMinimalValidation">Starten mit Minimaler Validierung</system:String>
@@ -13,7 +13,7 @@
     <system:String x:Key="Settings">Einstellungen</system:String>
     <system:String x:Key="ChangeColorTheme">Farbschema ändern...</system:String>
     <system:String x:Key="GeneralSettings">Generelle Einstellungen...</system:String>
-    <system:String x:Key="GameDriver">7H Spieltreiber Einstellungen...</system:String>
+    <system:String x:Key="GameDriver">Spieltreiber Einstellungen...</system:String>
     <system:String x:Key="GameLauncher">Spielstart Einstellungen ...</system:String>
     <system:String x:Key="Profiles">Profile...</system:String>
     <system:String x:Key="Language">Sprache...</system:String>
@@ -27,15 +27,15 @@
     <system:String x:Key="Help">Hilfe</system:String>
 
     <system:String x:Key="MyMods">Meine Mods</system:String>
-    <system:String x:Key="MyModsTooltip">Rechtsklick im "Meine Mods" Tab um den Mods Ordner zu öffnen.</system:String>
+    <system:String x:Key="MyModsTooltip">Rechtsklick auf "Meine Mods" Tab, um den Mods Ordner zu öffnen.</system:String>
 
-    <system:String x:Key="BrowseCatalog">Katalog</system:String>
-    <system:String x:Key="BrowseCatalogTooltip">Rechtsklick im "Katalog" Tab um die Katalog Einstellungen zu öffnen.</system:String>
+    <system:String x:Key="BrowseCatalog">Katalog durchsuchen</system:String>
+    <system:String x:Key="BrowseCatalogTooltip">Rechtsklick auf "Katalog" Tab um die Katalog Einstellungen zu öffnen.</system:String>
 
     <system:String x:Key="SearchHint">Suchtext eingeben ...</system:String>
-    <system:String x:Key="FiltersTooltip">Hier klicken um die Suchergebnisse zu Filtern.</system:String>
+    <system:String x:Key="FiltersTooltip">Hier klicken, um die Suchergebnisse zu Filtern.</system:String>
 
-    <system:String x:Key="StatusBarTooltip">Hier klicken um die app.log Datei zu öffnen</system:String>
+    <system:String x:Key="StatusBarTooltip">Hier klicken, um die app.log Datei zu öffnen</system:String>
 
     
     <!--Mod Info Panel-->
@@ -49,13 +49,13 @@
     <system:String x:Key="ClickHere">Hier klicken</system:String>
     <system:String x:Key="None">Keine</system:String>
 
-    <system:String x:Key="AutoUpdateInstall">Automatisch Aktuallisieren/Installieren</system:String>
+    <system:String x:Key="AutoUpdateInstall">Automatische Aktualisierung/Installation</system:String>
     <system:String x:Key="Ignore">Ignorieren</system:String>
-    <system:String x:Key="Notify">Benachrichten</system:String>
+    <system:String x:Key="Notify">Benachrichtigen</system:String>
 
     <system:String x:Key="DescriptionLabel">Beschreibung:</system:String>
     <system:String x:Key="LinkLabel">Link:</system:String>
-    <system:String x:Key="ReadmeLabel">Info/Readme:</system:String>
+    <system:String x:Key="ReadmeLabel">Readme:</system:String>
     <system:String x:Key="ReleaseNotesLabel">Release Informationen:</system:String>
 
     <system:String x:Key="NoPreviewImage">Keine Vorschau vorhanden</system:String>
@@ -70,14 +70,14 @@
     <system:String x:Key="Inst">Installiert</system:String>
 
 
-    <system:String x:Key="RefreshCatalogTooltip">Aktuallisieren des Katalogs</system:String>
-    <system:String x:Key="DownloadModTooltip">Ausgewählten Mod Herunterladen</system:String>
-    <system:String x:Key="ResetColumnsTooltip">Tabs auf Standart zurück setzen</system:String>
+    <system:String x:Key="RefreshCatalogTooltip">Aktualisierung aller Abonnements und des Katalogs erzwingen</system:String>
+    <system:String x:Key="DownloadModTooltip">Ausgewählten Mod herunterladen</system:String>
+    <system:String x:Key="ResetColumnsTooltip">Tabs auf Standard zurück setzen</system:String>
 
     <system:String x:Key="Item">Aufgabe</system:String>
-    <system:String x:Key="Progress">Vortschritt</system:String>
+    <system:String x:Key="Progress">Fortschritt</system:String>
     <system:String x:Key="Speed">Geschwindigkeit</system:String>
-    <system:String x:Key="TimeLeft">Benötigte Zeit</system:String>
+    <system:String x:Key="TimeLeft">Verbleibende Zeit</system:String>
 
     <system:String x:Key="CancelDownloadTooltip">Ausgewählten Download abbrechen</system:String>
 
@@ -85,14 +85,14 @@
     <!--My Mods Tab-->
     <system:String x:Key="Active">Active</system:String>
 
-    <system:String x:Key="ImportModTooltip">Mod Importieren</system:String>
-    <system:String x:Key="MoveUpTooltip">Hoch bewegen. Rechtsklick um nach ganz oben zu bewegen.</system:String>
-    <system:String x:Key="MoveDownTooltip">Runter bewegen. Rechtsklick um nach ganz unten zu bewegen.</system:String>
-    <system:String x:Key="AutoSortTooltip">Mods automatisch nach der Karegorie Ladereihenfolge sortieren.</system:String>
-    <system:String x:Key="ConfigureModTooltip">Mod einstellen</system:String>
+    <system:String x:Key="ImportModTooltip">Mod importieren</system:String>
+    <system:String x:Key="MoveUpTooltip">Nach oben bewegen. Rechtsklick, um nach ganz oben zu bewegen.</system:String>
+    <system:String x:Key="MoveDownTooltip">Nach unten bewegen. Rechtsklick, um nach ganz unten zu bewegen.</system:String>
+    <system:String x:Key="AutoSortTooltip">Mods automatisch nach Kategorie Ladereihenfolge sortieren.</system:String>
+    <system:String x:Key="ConfigureModTooltip">Mod konfigurieren</system:String>
     <system:String x:Key="ActivateAllTooltip">Alle Mods aktivieren</system:String>
     <system:String x:Key="DeactivateAllTooltip">Alle Mods deaktivieren</system:String>
-    <system:String x:Key="RefreshListTooltip">Liste aktuallisieren</system:String>
+    <system:String x:Key="RefreshListTooltip">Liste aktualisieren</system:String>
     <system:String x:Key="UninstallModTooltip">Mod deinstallieren</system:String>
     
     
@@ -104,77 +104,77 @@
     <system:String x:Key="No">Nein</system:String>
     <system:String x:Key="Off">Aus</system:String>
     <system:String x:Key="On">An</system:String>
-    <system:String x:Key="ResetDefaults">Standart wiederherstellen</system:String>
+    <system:String x:Key="ResetDefaults">Standard wiederherstellen</system:String>
     <system:String x:Key="Save">Speichern</system:String>
     <system:String x:Key="Load">Laden</system:String>
     <system:String x:Key="Go">Start</system:String>
 
 
     <!--Window Titles-->
-    <system:String x:Key="GameLauncherWindowTitle">Spiel Starten</system:String>
-    <system:String x:Key="CatalogCreationWindowTitle">Catalog und Mod Erstellungswerkzeug</system:String>
-    <system:String x:Key="GameDriverWindowTitle">7H Spieltreiber Einstellungen</system:String>
+    <system:String x:Key="GameLauncherWindowTitle">Starten Spiel</system:String>
+    <system:String x:Key="CatalogCreationWindowTitle">Katalog- und Mod-Erstellungswerkzeug</system:String>
+    <system:String x:Key="GameDriverWindowTitle">Spieltreiber Einstellungen</system:String>
     <system:String x:Key="UnexpectedErrorWindowTitle">7th Heaven - Unerwarteter Fehler!</system:String>
-    <system:String x:Key="AllowModToRun">Mod Start erlauben?</system:String>
+    <system:String x:Key="AllowModToRun">Start der Mod erlauben?</system:String>
     <system:String x:Key="Warning">Warnung</system:String>
     <system:String x:Key="Requirements">Anforderungen</system:String>
     <system:String x:Key="ExternalDownload">Externer Download?</system:String>
     <system:String x:Key="MissingPath">Fehlender Pfad</system:String>
     <system:String x:Key="ExtractComplete">Entpacken erfolgreich</system:String>
     <system:String x:Key="InsertDisc">CD einlegen</system:String>
-    <system:String x:Key="MissingRequiredInput">Benötigte eingabe fehlt</system:String>
+    <system:String x:Key="MissingRequiredInput">Benötigte Eingabe fehlt</system:String>
     <system:String x:Key="IROToolsWindowTitle">IRO Werkzeuge</system:String>
     <system:String x:Key="ChunkToolWindowTitle">flevel.lgp Entpacker</system:String>
     <system:String x:Key="ManageProfiles">Profile verwalten</system:String>
-    <system:String x:Key="SetLanguageWindowTitle">Sprache Einstellen</system:String>
+    <system:String x:Key="SetLanguageWindowTitle">Sprache einstellen</system:String>
 
 
 
 
 
     <!--Allow Mod To Run Window-->
-    <system:String x:Key="NoDontActivateThisMod">Nein, diesen Mod nicht aktivieren</system:String>
-    <system:String x:Key="YesActivateThisMod">Ja, diesen Mod aktivieren</system:String>
+    <system:String x:Key="NoDontActivateThisMod">Nein, diese Mod nicht aktivieren</system:String>
+    <system:String x:Key="YesActivateThisMod">Ja, diese Mod aktivieren</system:String>
     <system:String x:Key="DontAskAgainForAnyMods">Nicht mehr nachfragen</system:String>
     
     <!--Game Launcher Settings Window-->
     <system:String x:Key="OptionsHeader" xml:space="preserve"> Einstellungen </system:String>
-    <system:String x:Key="AutoMountDisc">CD automatisch einbinden</system:String>
-    <system:String x:Key="AutoMountDiscTooltip">Bindet die CD ISO automatisch ein. Nur unterstützt für Windows 8 und höher. Windows 7 und älter erfordern ein manuelles Einbinden der CD Iso.</system:String>
+    <system:String x:Key="AutoMountDisc">Spiel-CD automatisch einbinden</system:String>
+    <system:String x:Key="AutoMountDiscTooltip">Bindet die Spiel-CD ISO automatisch in einem virtuellem Laufwerk ein. Erfordert Windows 8 und neuer. Windows 7 und älter erfordern ein manuelles Einbinden der Spiel-CD ISO.</system:String>
 
-    <system:String x:Key="AutoDismountDisc">CD automatisch auswerfen</system:String>
-    <system:String x:Key="AutoDismountDiscTooltip">Wirft die CD ISO automatisch aus. Nur unterstützt für Windows 8 und höher. Windows 7 und älter erfordern ein manuelles Auswerfen der CD Iso.</system:String>
+    <system:String x:Key="AutoDismountDisc">Spiel-CD automatisch auswerfen</system:String>
+    <system:String x:Key="AutoDismountDiscTooltip">Wirft die Spiel-CD ISO automatisch aus. Erfordert Windows 8 und neuer. Windows 7 und älter erfordern ein manuelles Auswerfen der Spiel-CD ISO.</system:String>
 
-    <system:String x:Key="AutoUpdatePath">CD Pfad automatisch aktuallisieren</system:String>
-    <system:String x:Key="AutoUpdatePathTooltip">Ermittelt automatisch Änderungen des CD Pfads und passt die Spieleinstellungen entsprechend an.</system:String>
+    <system:String x:Key="AutoUpdatePath">CD-Pfad automatisch aktuallisieren</system:String>
+    <system:String x:Key="AutoUpdatePathTooltip">Ermittelt automatisch Änderungen des CD-Pfads und passt die Spieleinstellungen entsprechend an.</system:String>
 
     <system:String x:Key="ShowGameLauncher">Launcher starten</system:String>
     <system:String x:Key="ShowGameLauncherTooltip">Startet den Launcher der Steam Version des Spiels.</system:String>
 
     <system:String x:Key="ControlsLabel">Steuerung:</system:String>
 
-    <system:String x:Key="SaveControlsTooltip">Speichert deine aktuelle Controler einstellung des Spiels als neues Profil.</system:String>
-    <system:String x:Key="DeleteControlsTooltip">Entfernt das ausgewählte Controler Profil.</system:String>
+    <system:String x:Key="SaveControlsTooltip">Speichert die aktuelle Steuerungseinstellung des Spiels als neues Profil.</system:String>
+    <system:String x:Key="DeleteControlsTooltip">Entfernt das ausgewählte SteuerungsProfil.</system:String>
     
-    <system:String x:Key="CompatibilityHeader" xml:space="preserve"> Kompatibilitäts Einstellungen </system:String>
-    <system:String x:Key="HighDpiScalingFix">High-DPI Scaling Korrektur</system:String>
-    <system:String x:Key="HighDpiScalingFixTooltip">Kann den Fehler beheben, dass das Bild abgeschnitten oder nicht zentriert ist bei der Verwendung von hohen Auflösungen. Alternativ setze die Fenster Scalierung auf 100%.</system:String>
+    <system:String x:Key="CompatibilityHeader" xml:space="preserve"> Kompatibilitätseinstellungen </system:String>
+    <system:String x:Key="HighDpiScalingFix">Korrektur für Hochauflösende Bildschirme</system:String>
+    <system:String x:Key="HighDpiScalingFixTooltip">Kann den Fehler beheben, dass das Bild bei der Verwendung von hohen Auflösungen abgeschnitten oder nicht zentriert ist. Alternativ kann die Skalierung in den Systemeinstellungen auf 100% gesetzt werden.</system:String>
 
     <system:String x:Key="Code5Fix">Code 5 Korrektur</system:String>
-    <system:String x:Key="Code5FixTooltip">Kann den 'Code 5' Fehler beim starten des Spiels beheben. Beim nutzen mehrerer Monitore kann es vorkommen, dass das Spiel auf dem 2. Monitor gestartet wird, wenn aktiv.</system:String>
+    <system:String x:Key="Code5FixTooltip">Kann den 'Code 5' Fehler beim Start des Spiels beheben. Bei Nutzung mehrerer Monitore kann es vorkommen, dass das Programme auf dem 2. Monitor gestartet werden.</system:String>
 
     <system:String x:Key="ReunionDriverFix">Reunion Treiber Korrektur</system:String>
-    <system:String x:Key="ReunionDriverFixTooltip">Benennt die ddraw.dll temporär in Reunion.dll.bak beim Spielstart um und stellt nach dem Spielen das Orginal wieder her. Beeinflusst nicht die Spielbarkeit von Reunion außerhalb von 7H.</system:String>
+    <system:String x:Key="ReunionDriverFixTooltip">Benennt bei Spielstart die ddraw.dll temporär in Reunion.dll.bak um und stellt nach dem Spielen das Orginal wieder her. Beeinflusst nicht die Spielbarkeit von Reunion außerhalb von 7H.</system:String>
 
 
-    <system:String x:Key="ImportMoviesHeader" xml:space="preserve"> Movies von der CD Importieren </system:String>
+    <system:String x:Key="ImportMoviesHeader" xml:space="preserve"> Filmdateien von der CD Importieren </system:String>
     <system:String x:Key="Import">Importieren</system:String>
-    <system:String x:Key="ImportTooltip">Importiert fehlende Movies von der CD.</system:String>
+    <system:String x:Key="ImportTooltip">Importiert fehlende Filmdateien von der CD.</system:String>
 
 
     <system:String x:Key="AudioDeviceHeader" xml:space="preserve"> Audio Ausgabegerät </system:String>
     <system:String x:Key="SoundDeviceLabel">Audio Treiber:</system:String>
-    <system:String x:Key="SoundDeviceTooltip">Wählt den Ausgabetreiber für Soundeffekte.</system:String>
+    <system:String x:Key="SoundDeviceTooltip">Wählt den Ausgabetreiber für Audio.</system:String>
 
     <system:String x:Key="TestSoundTooltip">Testet den ausgewählten Audio Treiber sowie Musik und Sound Lautstärke. Test Audio wird von Enrico Deiana zur Verfügung gestellt.</system:String>
     <system:String x:Key="TestLeftSoundTooltip">Testet den ausgewählten Audio Treiber sowie Musik und Sound Lautstärke für den linken Lautsprecher. Test Audio wird von Enrico Deiana zur Verfügung gestellt.</system:String>
@@ -190,8 +190,8 @@
     <system:String x:Key="MusicVolumeLabel">Musik Lautstärke:</system:String>
     <system:String x:Key="MusicVolumeTooltip">Stellt die Lautstärke der Musik im Spiel ein.</system:String>
 
-    <system:String x:Key="LogVolumeControl">Logarithmische Lautstärkereglung</system:String>
-    <system:String x:Key="LogVolumeControlTooltip">Deaktivieren fals die Lautstärkeanpassung nicht weich von statten geht.</system:String>
+    <system:String x:Key="LogVolumeControl">Digitale Lautstärkereglung</system:String>
+    <system:String x:Key="LogVolumeControlTooltip">Deaktivieren, falls die Lautstärkeanpassung nicht weich vonstattengeht.</system:String>
 
     <system:String x:Key="ReverseSpeakers">Lautsprecher vertauschen</system:String>
     <system:String x:Key="ReverseSpeakersTooltip">Vertauscht die Lautsprecher (links auf rechts und umgekehrt).</system:String>
@@ -210,18 +210,18 @@
     <system:String x:Key="HardwareGraphicsTooltip">Optionen für die Hardwarebeschleunigung. Funktioniert nur bei 'Direct3D Hardware Acceleration'.</system:String>
 
 
-    <system:String x:Key="ProgramsToRunHeader" xml:space="preserve"> Programme die vor Final Fantasy gestartet werden: </system:String>
+    <system:String x:Key="ProgramsToRunHeader" xml:space="preserve"> Programme, die vor Final Fantasy gestartet werden: </system:String>
     <system:String x:Key="ProgramNameHint">Den vollständigen Pfad angeben</system:String>
     <system:String x:Key="ProgramArgsHint">Die Argumente/Optionen eingeben</system:String>
 
     <system:String x:Key="AddProgramTooltip">Ein Programm der Liste hinzufügen.</system:String>
     <system:String x:Key="RemoveProgramTooltip">Programm von der Liste entfernen.</system:String>
     <system:String x:Key="EditProgramTooltip">Programm und Argumente bearbeiten.</system:String>
-    <system:String x:Key="MoveProgramUpTooltip">Das ausgewählte Programm nach oben bewegen. Rechtsklick um es an die Spitze zu bewegen.</system:String>
-    <system:String x:Key="MoveProgramDownTooltip">Das ausgewählte Programm nach unten bewegen. Rechtsklick um es nach ganz unten zu bewegen.</system:String>
+    <system:String x:Key="MoveProgramUpTooltip">Das ausgewählte Programm nach oben bewegen. Rechtsklick, um es an die Spitze zu bewegen.</system:String>
+    <system:String x:Key="MoveProgramDownTooltip">Das ausgewählte Programm nach unten bewegen. Rechtsklick, um es nach ganz unten zu bewegen.</system:String>
     <system:String x:Key="BrowseProgramTooltip">Nach einem Programm suchen</system:String>
 
-    <system:String x:Key="ResetLauncherDefaultsTooltip">Standart Einstellungen wiederherstellen.</system:String>
+    <system:String x:Key="ResetLauncherDefaultsTooltip">Standardeinstellungen wiederherstellen.</system:String>
     
     <!--Catalog Creation Window-->
     <system:String x:Key="CreateMod">Mod erstellen</system:String>
@@ -233,16 +233,16 @@
     <system:String x:Key="SelectFlevelLabel">FLEVEL.LGP auswählen:</system:String>
     <system:String x:Key="OutputFolderLabel">Zielordner:</system:String>
 
-    <system:String x:Key="SectionHeader" xml:space="preserve"> Auswählen # </system:String>
-    <system:String x:Key="Section1">Section 1 Field Script Dialog</system:String>
-    <system:String x:Key="Section2">Section 2 Camera Matrix</system:String>
-    <system:String x:Key="Section3">Section 3 Model Loader</system:String>
-    <system:String x:Key="Section4">Section 4 Palette</system:String>
-    <system:String x:Key="Section5">Section 5 Walkmesh</system:String>
-    <system:String x:Key="Section6">Section 6 TileMap (Unused)</system:String>
-    <system:String x:Key="Section7">Section 7 Encounter</system:String>
-    <system:String x:Key="Section8">Section 8 Triggers</system:String>
-    <system:String x:Key="Section9">Section 9 Background</system:String>
+    <system:String x:Key="SectionHeader" xml:space="preserve"> Bereich # </system:String>
+    <system:String x:Key="Section1">Bereich 1: Field Script Dialog</system:String>
+    <system:String x:Key="Section2">Bereich 2: Camera Matrix</system:String>
+    <system:String x:Key="Section3">Bereich 3: Model Loader</system:String>
+    <system:String x:Key="Section4">Bereich 4: Palette</system:String>
+    <system:String x:Key="Section5">Bereich 5: Walkmesh</system:String>
+    <system:String x:Key="Section6">Bereich 6: TileMap (Unused)</system:String>
+    <system:String x:Key="Section7">Bereich 7: Encounter</system:String>
+    <system:String x:Key="Section8">Bereich 8: Triggers</system:String>
+    <system:String x:Key="Section9">Bereich 9: Background</system:String>
 
     <system:String x:Key="Extract">Entpacken</system:String>
 
@@ -251,21 +251,21 @@
     <system:String x:Key="ConfigureHeader" xml:space="preserve"> Einstellungen </system:String>
     <system:String x:Key="Preview">Vorschau</system:String>
     <system:String x:Key="Stop">Stop</system:String>
-    <system:String x:Key="ResetToModDefaults">Mod auf Standart zurücksetzen</system:String>
+    <system:String x:Key="ResetToModDefaults">Mod auf Standard zurücksetzen</system:String>
     
     <!--MainWindow.xaml.cs Strings-->
-    <system:String x:Key="AreYouSureYouWantToPlayDebugWarning" xml:space="preserve">Sicher, dass der Debug Modus gestartet werden soll? Das Spiel könnte extrem Langsam laufen und viel Festplatten Speicher beanspruchen.
+    <system:String x:Key="AreYouSureYouWantToPlayDebugWarning" xml:space="preserve">Sicher, dass der Debug Modus gestartet werden soll? Das Spiel könnte extrem langsam laufen und viel Festplattenspeicher beanspruchen.
 
-Diese Option sollte nur für die Fehlerdiagnose eines einzelnen Mods verwendet werden um em Mod Autor oder dem 7H entwickler einen ausführlichen Bug Report zukommen zu lassen.</system:String>
+Diese Option sollte nur für die Fehlerdiagnose eines einzelnen Mods verwendet werden, um dem Mod-Autor oder den 7H-Entwicklern einen ausführlichen Bug Report zukommen zu lassen.</system:String>
 
     <system:String x:Key="AreYouSureYouWantToExitPendingDownloads">Programm beenden? Es sind noch Downloads aktiv.</system:String>
     <system:String x:Key="ConfirmExit">Beenden bestätigen</system:String>
 
     <!--MainWindowViewModel Strings-->
-    <system:String x:Key="StartedClickHereToViewAppLog">gestartet - Hier klicken um die App.log einzusehen.</system:String>
+    <system:String x:Key="StartedClickHereToViewAppLog">gestartet - Hier klicken, um den App.log einzusehen.</system:String>
     <system:String x:Key="HintLabel">Hinweis:</system:String>
-    <system:String x:Key="CheckingForUpdates">Auf Programm Updates prüfen...</system:String>
-    <system:String x:Key="SelectAll">Alle auswählen</system:String>
+    <system:String x:Key="CheckingForUpdates">Prüfe auf Programmupdates...</system:String>
+    <system:String x:Key="SelectAll">Alles auswählen</system:String>
     <system:String x:Key="Unknown">Unbekannt</system:String>
 
     <system:String x:Key="UpdateAvailable">Update verfügbar</system:String>
@@ -275,63 +275,63 @@ Diese Option sollte nur für die Fehlerdiagnose eines einzelnen Mods verwendet w
     <system:String x:Key="UpdatesIgnored">Updates werden ignoriert</system:String>
     <system:String x:Key="AutoUpdate">Automatisches Update</system:String>
 
-    <system:String x:Key="FollowingErrorsFoundInConfiguration">Die folgenden fehler wurden in deinen Einstellungen gefunden:</system:String>
+    <system:String x:Key="FollowingErrorsFoundInConfiguration">Die folgenden fehler wurden in den Einstellungen gefunden:</system:String>
     <system:String x:Key="ErrorsFoundInGeneralSettingsViewAppLog">Fehler in den Einstellungen gefunden. App.log für genaue Fehler Deteils bitte einsehen.</system:String>
 
-    <system:String x:Key="AppUpdateIsAvailableMessage" xml:space="preserve">Ein Update ist verfügbar für {0}
-auf Ja klicken um den Browser zu öffnen.
+    <system:String x:Key="AppUpdateIsAvailableMessage" xml:space="preserve">Ein Update ist verfügbar für {0}.
+Auf Ja klicken, um den Browser zu öffnen.
         
 {1} Release Notes: {2}
     </system:String>
     <system:String x:Key="NewVersionAvailable">Eine neue Version ist verfügbar!</system:String>
 
-    <system:String x:Key="ThisModContainsDataThatCouldHarm" xml:space="preserve">Der Mod '{0}' beinhaltet Daten, die deinem PC eventuell schaden könnten. Aktiviere nur Mods, deren Autor du vertraust.
+    <system:String x:Key="ThisModContainsDataThatCouldHarm" xml:space="preserve">Der Mod '{0}' beinhaltet Daten, die eventuell schädlich für den PC sein könnten. Aktiviere nur vertrauenswürdige Mods.
         
-Do you still want to activate this mod?</system:String>
+Soll die Mod trotzdem aktiviert werden?</system:String>
 
     <system:String x:Key="CannotOpenHelp">Hilfe kann nicht geöffnet werden - Resources/Help/index.html wurde nicht gefunden.</system:String>
 
     <system:String x:Key="SubscriptionIsAlreadyAdded">Der Katalog {0} wurde bereits hinzugefügt.</system:String>
     <system:String x:Key="AddedToSubscriptions">Der Katalog {0} wurde hinzugefügt.</system:String>
-    <system:String x:Key="IrosLinkMayBeFormatedIncorrectly">Der iros:// link {0} wurde eventuell falsch angegeben. Er konnte nicht hinzugefügt werden.</system:String>
+    <system:String x:Key="IrosLinkMayBeFormatedIncorrectly">Der iros:// Link {0} ist eventuell falsch formatiert. Er konnte nicht zu den Abonnements hinzugefügt werden.</system:String>
 
-    <system:String x:Key="FailedToSetBackgroundImageFromTheme">Fehler beim setzen des Hintergrundbild.</system:String>
+    <system:String x:Key="FailedToSetBackgroundImageFromTheme">Hintergrundbild konnte nicht aus dem Theme geladen werden.</system:String>
 
 
 
 
     <!--MyModsViewModel Strings-->
     
-    <system:String x:Key="ModRequiresModsIsMissingWarning" xml:space="preserve">Dieser Mod benötigt, dass der/die folgende/n Mod/s ebenfals Aktiviert ist/sind:
+    <system:String x:Key="ModRequiresModsIsMissingWarning" xml:space="preserve">Diese Mod erfordert, dass die folgende/n Mod/s ebenfalls aktiviert ist/sind:
 {0}
-Er Funktioniert eventuell nicht richtig, bis der/die benötigte/n Mod/s installiert wurde/n.</system:String>
+Sie funktioniert eventuell nicht richtig, bis die benötigte/n Mod/s installiert wurde/n.</system:String>
 
-    <system:String x:Key="UnsupportedModVersionsWarning" xml:space="preserve">Dieser Mod benötigt den/die folgenden Mod/s, aber du nutzt eine nicht unterstützte Version:
+    <system:String x:Key="UnsupportedModVersionsWarning" xml:space="preserve">Diese Mod benötigt den/die folgenden Mod/s, aber eine unterstützte Version ist nicht installiert:
 {0}
-Du musst diese/n Mod/s gegebenfals aktuallisieren.</system:String>
+Diese Mod/s müssen gegebenenfalls aktualisiert werden.</system:String>
 
-    <system:String x:Key="ThisModRequiresYouActivateFollowingMods" xml:space="preserve">Dieser Mod benötigt den/die folgenden Mod/s:
+    <system:String x:Key="ThisModRequiresYouActivateFollowingMods" xml:space="preserve">Diese Mod benötigt die folgende/n Mod/s:
 {0}
-Er/Sie wird/werden atomatisch aktiviert.</system:String>
+Sie wird/werden automatisch aktiviert.</system:String>
 
-    <system:String x:Key="ModRequiresYouDeactivateTheFollowingMods" xml:space="preserve">Dieser Mod setzt vorraus, dass du den/die folgenden Mod/s deaktivierst:
+    <system:String x:Key="ModRequiresYouDeactivateTheFollowingMods" xml:space="preserve">Diese Mod erfordert, dass die folgende/n Mod/s deaktiviert ist/sind:
 {0}
-Er/Sie wird/werden atomatisch deaktiviert.</system:String>
+Sie wird/werden automatisch deaktiviert.</system:String>
 
 
-    <system:String x:Key="CannotActivateModBecauseItIsIncompatibleWithOtherMod" xml:space="preserve">Du kannst diesen Mod nicht aktivieren, da er incompatible mit {0} ist. Du musst erst {0} deaktivieren, bevor du ihn aktivieren kannst.</system:String>
+    <system:String x:Key="CannotActivateModBecauseItIsIncompatibleWithOtherMod" xml:space="preserve">Diese Mod kann nicht aktiviert werden, da sie inkompatibel mit {0} ist. {0} muss/müssen erst deaktiviert werden, bevor sie aktiviert werden kann.</system:String>
 
-    <system:String x:Key="CannotActivateModBecauseDependentIsIncompatible" xml:space="preserve">Du kannst diesen Mod nicht aktivieren, weil er {0} benötigt. Aber {0} ist nicht kompatible mit {1}. Du musst erst {1} deaktivieren, bevor du diesen Mod verwenden kannst.</system:String>
+    <system:String x:Key="CannotActivateModBecauseDependentIsIncompatible" xml:space="preserve">Du kannst diese Mod nicht aktivieren, weil sie {0} benötigt, doch {0} ist inkompatibel mit {1}. {1} muss/müssen zuerst deaktiviert werden, bevor diese Mod verwendet werden kann.</system:String>
 
-    <system:String x:Key="MissingRequirements">Fehlende Vorraussetzung</system:String>
+    <system:String x:Key="MissingRequirements">Fehlende Vorraussetzungen</system:String>
     <system:String x:Key="UnsupportedVersion">Nicht unterstützte Version</system:String>
     <system:String x:Key="MissingRequiredActiveMods">Es fehlen erforderliche aktive Mods</system:String>
-    <system:String x:Key="DeactivateModsWarning">Deaktiviere Mod Warnungen</system:String>
+    <system:String x:Key="DeactivateModsWarning">Deaktiviere Mod-Warnungen</system:String>
     <system:String x:Key="Uninstalled">Deinstalliert</system:String>
 
-    <system:String x:Key="CanNotReOrderModItHasBeenRemoved">Kann Mod nicht neu laden. scheinbar wurde {0} vom System entfernt.</system:String>
-    <system:String x:Key="CanNotConfigureModItHasBeenRemoved">Kann Mod einstellen. scheinbar wurde {0} vom System entfernt.</system:String>
-    <system:String x:Key="CanNotConfigureModFailedToReadModXml">Kann Mod {0} nicht einstellen. - Mod.xml wurde nicht gefunden</system:String>
+    <system:String x:Key="CanNotReOrderModItHasBeenRemoved">Mod kann nicht neu angeordnet werden. Scheinbar wurde {0} vom System entfernt.</system:String>
+    <system:String x:Key="CanNotConfigureModItHasBeenRemoved">Mod kann nicht konfiguriert werden. Scheinbar wurde {0} vom System entfernt.</system:String>
+    <system:String x:Key="CanNotConfigureModFailedToReadModXml">Mod {0} kann nicht konfiguriert werden. - Mod.xml wurde nicht gefunden</system:String>
 
     <system:String x:Key="NoOptions">Keine Einstellungen verfügbar</system:String>
     <system:String x:Key="ThereAreNoOptionsToConfigureForThisMod">Es sind keine Einstellungen für diesen Mod verfügbar.</system:String>
@@ -341,13 +341,13 @@ Er/Sie wird/werden atomatisch deaktiviert.</system:String>
 
     <!--CatalogViewModel Strings-->
 
-    <system:String x:Key="ThisModAlsoRequiresYouDownloadTheFollowing" xml:space="preserve">Dieser Mod erfordert zusätzlich:
+    <system:String x:Key="ThisModAlsoRequiresYouDownloadTheFollowing" xml:space="preserve">Diese Mod erfordert zusätzlich:
 {0}
-herunterladen und installieren?</system:String>
+Herunterladen und installieren?</system:String>
 
-    <system:String x:Key="ThisModRequiresTheFollowingButCouldNotBeFoundInCatalog" xml:space="preserve">Dieser Mod benötigt den/die folgenden Mod/s, aber er/sie kann/können in keinem Katalog gefunden werden:
+    <system:String x:Key="ThisModRequiresTheFollowingButCouldNotBeFoundInCatalog" xml:space="preserve">Diese Mod benötigt die folgende/n Mod/s, aber sie kann/können in keinem Katalog gefunden werden:
 {0}
-Er wird eventuell ohne diese Mods nicht richtig funktionieren.</system:String>
+Sie wird eventuell ohne diese Mod/s nicht richtig funktionieren.</system:String>
 
     <system:String x:Key="PauseResumeSelectedDownload">Pausieren/Fortsetzen des ausgewählten Downloads</system:String>
     <system:String x:Key="PauseSelectedDownload">Pausieren des ausgewählten Downloads</system:String>
@@ -360,56 +360,56 @@ Er wird eventuell ohne diese Mods nicht richtig funktionieren.</system:String>
     <system:String x:Key="FailedToLoadSubscription">Abonnement wurde nicht gefunden</system:String>
     <system:String x:Key="CatalogDownloadFailed">Katalog download fehlgeschlagen</system:String>
 
-    <system:String x:Key="Starting">Starten...</system:String>
+    <system:String x:Key="Starting">Starte...</system:String>
     <system:String x:Key="Pending">Warteschlange...</system:String>
-    <system:String x:Key="Resuming">Fortsetzen...</system:String>
+    <system:String x:Key="Resuming">Setze fort...</system:String>
     <system:String x:Key="Paused">Pause...</system:String>
     <system:String x:Key="Canceled">Abgebrochen</system:String>
     <system:String x:Key="Failed">Fehlgeschlagen</system:String>
 
     <system:String x:Key="IsAlreadyDownloading">wird bereits heruntergeladen!</system:String>
-    <system:String x:Key="IsAlreadyUpdating">wird bereits aktuallisiert!</system:String>
+    <system:String x:Key="IsAlreadyUpdating">wird bereits aktualisiert!</system:String>
     <system:String x:Key="IsAlreadyDownloadedAndInstalled">ist bereits heruntergeladen und installiert!</system:String>
 
     <system:String x:Key="NoLinksFor">Keine Links für</system:String>
     <system:String x:Key="FailedToParseLinkFor">Analysieren des Links fehlgeschlagen für</system:String>
     <system:String x:Key="OpeningExternalUrlInBrowserFor">Öffnen der externen Url ist fehlgeschlagen für</system:String>
 
-    <system:String x:Key="ErrorDownloading">Fehler beim herunterladen</system:String>
+    <system:String x:Key="ErrorDownloading">Fehler beim Herunterladen</system:String>
     <system:String x:Key="WasCanceled">wurde abgebrochen</system:String>
     <system:String x:Key="Error">Fehler</system:String>
     
-    <system:String x:Key="ExternalUrlDownloadMessage1" xml:space="preserve">Dieser Mod kann nur über eine externe Webseite heruntergeladen werden.
+    <system:String x:Key="ExternalUrlDownloadMessage1" xml:space="preserve">Diese Mod kann nur über eine externe Webseite heruntergeladen werden.
 
-Webbrowser öffen zum herunterladen?</system:String>
+Webbrowser zum Herunterladen öffen?</system:String>
 
-    <system:String x:Key="ExternalUrlDownloadMessage2" xml:space="preserve">Automatisches herunterladen des Mods fehlgeschlagen. Ein externer Link ist verfügbar.
+    <system:String x:Key="ExternalUrlDownloadMessage2" xml:space="preserve">Automatisches Herunterladen der Mod fehlgeschlagen. Ein externer Link ist verfügbar.
 
-Webbrowser öffen zum herunterladen?</system:String>
+Webbrowser zum Herunterladen öffen?</system:String>
 
-    <system:String x:Key="SwitchingToBackupUrl">wechseln zum alternativ Link</system:String>
-    <system:String x:Key="Downloading">Herunterladen</system:String>
-    <system:String x:Key="Installing">Installieren</system:String>
+    <system:String x:Key="SwitchingToBackupUrl">wechsle zum alternativ Link</system:String>
+    <system:String x:Key="Downloading">Lade herunter</system:String>
+    <system:String x:Key="Installing">Installiere</system:String>
 
 
     <!--ChunkToolViewModel Strings-->
-    <system:String x:Key="PathToFlevelRequired">Pfad zur Flevel.lgp benötigt.</system:String>
+    <system:String x:Key="PathToFlevelRequired">Pfad zu Flevel.lgp benötigt.</system:String>
     <system:String x:Key="PathToOutputFolderRequired">Pfad zum Zielordner benötigt.</system:String>
-    <system:String x:Key="SelectTheSectionsToExtract">Bereiche zum entpacken auswählen.</system:String>
-    <system:String x:Key="FlevelFileDoesNotExistAtGivenPath">Flevel.lgp file wurde am angebenenen Pfad bicht gefunden.</system:String>
+    <system:String x:Key="SelectTheSectionsToExtract">Bereiche zum Entpacken auswählen.</system:String>
+    <system:String x:Key="FlevelFileDoesNotExistAtGivenPath">Flevel.lgp wurde am angebenenen Pfad nicht gefunden.</system:String>
     <system:String x:Key="OutputFolderDoesNotExist">Zielordner wurde nicht gefunden.</system:String>
 
     <system:String x:Key="Complete">Vollständig!</system:String>
-    <system:String x:Key="FailedToExtractTheErrorHasBeenLogged">Fehler beim entpacken. Log wurde erstellt</system:String>
+    <system:String x:Key="FailedToExtractTheErrorHasBeenLogged">Fehler beim Entpacken. Log wurde erstellt</system:String>
 
 
     <!--ConfigureModViewModel Strings-->
-    <system:String x:Key="ConfigureMod">Mod einstellen</system:String>
+    <system:String x:Key="ConfigureMod">Mod konfigurieren</system:String>
 
-    <system:String x:Key="ThisOptionCannotBeChangedDueToCompatibility">Diese Option kann aufgrund von Kompatibilitätsproblemen mit einem anderen Mod nicht aktiviert werden</system:String>
-    <system:String x:Key="TheFollowingValuesHaveBeenRemovedDueToCompatibility">Die Option: {0} wurde auf aufgrund von Kompatibilitätsproblemen mit einem anderen Mod deaktiviert ({1})</system:String>
+    <system:String x:Key="ThisOptionCannotBeChangedDueToCompatibility">Diese Option kann aufgrund von Kompatibilitätsproblemen mit einee anderen Mod nicht aktiviert werden.</system:String>
+    <system:String x:Key="TheFollowingValuesHaveBeenRemovedDueToCompatibility">Die Option: {0} wurde auf aufgrund von Kompatibilitätsproblemen mit einer anderen Mod deaktiviert ({1}).</system:String>
 
-    <system:String x:Key="FailedToPlayPreviewAudio">Fehler beim abspielen der Testaudio Datei</system:String>
+    <system:String x:Key="FailedToPlayPreviewAudio">Fehler beim Abspielen der Test-Audiodatei</system:String>
 
 
     <!--DownloadItemViewModel Strings-->
@@ -418,59 +418,59 @@ Webbrowser öffen zum herunterladen?</system:String>
     
     
     <!--GameLaunchSettingsViewModel Strings-->
-    <system:String x:Key="InsertAndClickImport">{0} einlegen und 'importieren' klicken.</system:String>
+    <system:String x:Key="InsertAndClickImport">{0} einlegen und 'Importieren' klicken.</system:String>
     <system:String x:Key="GameLauncherSettingsUpdated">Spielstart Einstellungen wurden aktuallisiert!</system:String>
-    <system:String x:Key="FailedToSaveLaunchSettings">Fehler beim speichern der Spielstart Einstellungen</system:String>
+    <system:String x:Key="FailedToSaveLaunchSettings">Fehler beim Speichern der Spielstart Einstellungen</system:String>
 
-    <system:String x:Key="ErrorCopyingFf7InputCfg">Fehler beim kopieren der ff7input.cfg in den Final Fantasy 7 Ordner</system:String>
+    <system:String x:Key="ErrorCopyingFf7InputCfg">Fehler beim Kopieren der ff7input.cfg in den Final Fantasy 7 Ordner</system:String>
     <system:String x:Key="NoFf7InputCfgFoundAt">Keine ff7input.cfg gefunden in</system:String>
-    <system:String x:Key="AlreadyExistsAt">Existiert bereits in</system:String>
+    <system:String x:Key="AlreadyExistsAt">existiert bereits in</system:String>
 
     <system:String x:Key="ChoosingAnyOtherOptionBesidesCustom7HGameDriver">Eine andere Option als "7H Spieltreiber" auszuwählen, wird dazu führen, dass aktivierte Mods nicht funktionieren!</system:String>
     
-    <system:String x:Key="ReunionWarningMessage" xml:space="preserve">Reunion R06 und neuer, selbst wenn deaktiviert in der Options.ini, zwingt Final Fantasy 7 dazu einen anderen Custom Treiber zu laden. Das führt zu Problemen mit dem 7H Spieltreiber und verursacht Probleme.
+    <system:String x:Key="ReunionWarningMessage" xml:space="preserve">Reunion R06 und neuer, selbst wenn es in der Options.ini deaktiviert ist, zwingt Final Fantasy 7 dazu, einen anderen angepassten Treiber zu laden. Das führt zu Problemen mit dem 7H Spieltreiber und verursacht Probleme.
 
-Wenn du Reunion spielen willst, nutze bitte eine 7H kompatible Version.
+Bitte eine 7H-kompatible Version von Reunion verwenden, wenn diese Mod gespielt werden soll.
 
 Spiel trotzdem starten?</system:String>
 
     <system:String x:Key="YouShouldLeaveThisSettingOn">Diese Option sollte aktiviert bleiben!</system:String>
-    <system:String x:Key="ProgramToRunNotFound">Programm zum starten wurde nicht gefunden</system:String>
+    <system:String x:Key="ProgramToRunNotFound">Programm zum Starten wurde nicht gefunden</system:String>
 
-    <system:String x:Key="ImportMissingMoviesWarningMessage" xml:space="preserve">Fehlende Movies werden in den, unter 'Generelle Einstellungen' festgelegten, Ordner kopiert.
+    <system:String x:Key="ImportMissingMoviesWarningMessage" xml:space="preserve">Fehlende Filmdateien werden in den unter 'Generelle Einstellungen' festgelegten Ordner kopiert.
 
-Das wird alle in {0} vorhandene Dateien überschreiben..
+Dies wird alle in {0} vorhandenen Dateien überschreiben..
 
-Sicher das du fortfahren willst?</system:String>
+Soll fortgefahren werden?</system:String>
 
     <system:String x:Key="LookingFor">Suche nach</system:String>
-    <system:String x:Key="InsertToContinue">Bitte {0} einlegen zum fortfahren.</system:String>
+    <system:String x:Key="InsertToContinue">Bitte {0} einlegen, um fortzufahren.</system:String>
     
-    <system:String x:Key="PleaseInsertToContinueCopying" xml:space="preserve">Bitte {0} einlegen um mit dem kopieren der fehlenden Movies fortzufahren.
+    <system:String x:Key="PleaseInsertToContinueCopying" xml:space="preserve">Bitte {0} einlegen, um mit dem Kopieren der fehlenden Filmdateien fortzufahren.
 
-Auf 'Abbrechen' klicken um den Vorgang zu unterbrechen.</system:String>
+Auf 'Abbrechen' klicken, um den Vorgang zu unterbrechen.</system:String>
 
     <system:String x:Key="FoundDiscAt">{0} gefunden in</system:String>
     <system:String x:Key="Overwriting">Überschreiben</system:String>
     <system:String x:Key="Copying">Kopieren</system:String>
     <system:String x:Key="FailedToFindAt">{0} wurde nicht gefunden in {1}</system:String>
-    <system:String x:Key="AnErrorOccurredCopyingMovies">Beim kopieren der Movies trat ein Fehler auf</system:String>
-    <system:String x:Key="SuccessfullyCopiedMovies">Movies erfolgreich kopiert.</system:String>
-    <system:String x:Key="FinishedCopyingMoviesSomeFailed">Movies wurden kopiert. Bei einigen traten Fehler auf. App.log prüfen für Details.</system:String>
+    <system:String x:Key="AnErrorOccurredCopyingMovies">Beim Kopieren der Filmdateien trat ein Fehler auf</system:String>
+    <system:String x:Key="SuccessfullyCopiedMovies">Filmdateien erfolgreich kopiert.</system:String>
+    <system:String x:Key="FinishedCopyingMoviesSomeFailed">Filmdateien wurden kopiert. Bei einigen traten Fehler auf. App.log prüfen für Details.</system:String>
 
-    <system:String x:Key="SaveControlConfiguration">Controler Einstellungen speichern</system:String>
-    <system:String x:Key="ImportCurrentControlsFromGameAndSaveAs">Controler Einstellungen vom aktiven Spiel importieren und speichern als...</system:String>
-    <system:String x:Key="SaveError">Fehler beim speichern</system:String>
+    <system:String x:Key="SaveControlConfiguration">Steuerungseinstellungen speichern</system:String>
+    <system:String x:Key="ImportCurrentControlsFromGameAndSaveAs">Steuerungseinstellungen des aktiven Spiels importieren und speichern als...</system:String>
+    <system:String x:Key="SaveError">Fehler beim Speichern</system:String>
     <system:String x:Key="ControlNameIsEmpty">Profil Name ist leer.</system:String>
     <system:String x:Key="ControlNameContainsInvalidChars">Profil Name beinhaltet ungültige Buchstaben/Symbole.</system:String>
 
     <system:String x:Key="ControlsWithThatNameAlreadyExist">Das angegebene Profil existiert bereits.</system:String>
 
     <system:String x:Key="SuccessfullyCreatedCustomControls">Profil erfolgreich erstellt.</system:String>
-    <system:String x:Key="FailedToCreateCustomControls">Fehler beim erstellen des Profils</system:String>
+    <system:String x:Key="FailedToCreateCustomControls">Fehler beim Erstellen des Profils</system:String>
 
     <system:String x:Key="SuccessfullyDeletedCustomControls">Profil erfolgreich gelöscht</system:String>
-    <system:String x:Key="FailedToDeleteCustomControls">Fehler beim löschen des Profils</system:String>
+    <system:String x:Key="FailedToDeleteCustomControls">Fehler beim Löschen des Profils</system:String>
     
     
     <!--GeneralSettingsViewModel Strings-->
@@ -632,7 +632,7 @@ Auf 'Abbrechen' klicken um den Vorgang zu unterbrechen.</system:String>
     <system:String x:Key="TextureCacheCleared">Texture Cache geleert!</system:String>
     <system:String x:Key="FailedToClearTextureCache">Leeren des Texture Cache fehlgeschlagen</system:String>
     <system:String x:Key="GameDriverSettingsSaved">7H Spieltreiber Einstellungen gespeichert!</system:String>
-    <system:String x:Key="CouldNotWriteTo7HGameDriverCfg">Konnte FFNx.cfg nicht speichern. Bitte prüfe, dass die Datei oder der Final Fantasy 7 Ordner nicht schreibgeschützt ist.</system:String>
+    <system:String x:Key="CouldNotWriteTo7HGameDriverCfg">Konnte FFNx.toml nicht speichern. Bitte prüfe, dass die Datei oder der Final Fantasy 7 Ordner nicht schreibgeschützt ist.</system:String>
     <system:String x:Key="UnknownErrorWhileSaving">Unbekannter Fehler beim speichern. Log wurde erstellt.</system:String>
     <system:String x:Key="GameDriverSettingsResetToDefaults">7H Spieltreiber Einstellungen auf standart zurückgesetzt. Drücke auf 'Speichern' um die Einstellungen zu speichern.</system:String>
 
@@ -938,7 +938,7 @@ Aktivieren und erneut versuchen?</system:String>
     <system:String x:Key="GameDriverDllFileIsUpToDate">7H Spieltreiber ist aktuell.</system:String>
     <system:String x:Key="BackingUpExistingGameDriverTo">Sichere aktuellen Treiber in</system:String>
     <system:String x:Key="BackingUpExistingGameDriverCfgTo">Sichere aktuelle driver.cfg in</system:String>
-    <system:String x:Key="GameDriverCfgFileMissingCopyingDefaultFrom">FFNx.cfg fehlt. Kopiere standart Datei von</system:String>
+    <system:String x:Key="GameDriverCfgFileMissingCopyingDefaultFrom">FFNx.toml fehlt. Kopiere standart Datei von</system:String>
     <system:String x:Key="CannotCreateDefaultCfgDueToMissingFile">Kann die standart .cfg nicht kopieren, weil die Datei fehlt.</system:String>
     <system:String x:Key="BackingUpExistingShadersFolderTo">Sichere aktuellen "shaders" Ordner in</system:String>
     <system:String x:Key="CopyingContentsOf">Kopiere Inhalt von</system:String>

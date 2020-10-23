@@ -5,7 +5,7 @@
   <Setting xsi:type="DropDown">
     <Group>Grafik</Group>
     <Name>Grafik-API</Name>
-    <Description>Legt die Rendering-Software fest. Auto bestimmt die beste Wahl basierend auf Ihrer GPU. Bei Verwendung von OpenGL mit AMD-Karten können Abstürze auftreten.</Description>
+    <Description>Legt die Rendering-Software fest. 'Automatisch' bestimmt die beste Wahl, basierend auf Ihrer GPU. Bei Verwendung von OpenGL mit AMD-Karten können Abstürze auftreten.</Description>
     <DefaultValue>renderer_backend = 0</DefaultValue>
     <Option>
       <Text>Automatisch</Text>
@@ -19,106 +19,114 @@
       <Text>DirectX 11</Text>
       <Settings>renderer_backend = 3</Settings>
     </Option>
+    <Option>
+      <Text>DirectX 12</Text>
+      <Settings>renderer_backend = 4</Settings>
+    </Option>
+    <Option>
+      <Text>Vulkan</Text>
+      <Settings>renderer_backend = 5</Settings>
+    </Option>
   </Setting>
 
   <Setting xsi:type="DropDown">
     <Group>Grafik</Group>
     <Name>Auflösung</Name>
-    <Description>Fenstergröße (oder Vollbild auflösung) für FF/. Automatisch wählt die standart FF7 Auflösung für Fenstermodus und aktuelle Desktopauflösung für Vollbild aus.</Description>
-      <DefaultValue>window_size_x = 1280,window_size_y = 720</DefaultValue>
-      <Option>
-      <Text>Automatisch</Text>
-        <Settings>window_size_x = 0,window_size_y = 0</Settings>
-      </Option>
-      <Option>
-        <Text>640x480</Text>
-        <Settings>window_size_x = 640,window_size_y = 480</Settings>
-      </Option>
-      <Option>
-        <Text>800x600</Text>
-        <Settings>window_size_x = 800,window_size_y = 600</Settings>
-      </Option>
-      <Option>
-        <Text>1024x768</Text>
-        <Settings>window_size_x = 1024,window_size_y = 768</Settings>
-      </Option>
-      <Option>
-        <Text>1280x720</Text>
-        <Settings>window_size_x = 1280,window_size_y = 720</Settings>
-      </Option>
-      <Option>
-        <Text>1280x960</Text>
-        <Settings>window_size_x = 1280,window_size_y = 960</Settings>
-      </Option>
-      <Option>
-        <Text>1400x1050</Text>
-        <Settings>window_size_x = 1400,window_size_y = 1050</Settings>
-      </Option>
-      <Option>
-        <Text>1440x1080</Text>
-        <Settings>window_size_x = 1440,window_size_y = 1080</Settings>
-      </Option>
-      <Option>
-        <Text>1600x1200</Text>
-        <Settings>window_size_x = 1600,window_size_y = 1200</Settings>
-      </Option>
-      <Option>
-        <Text>1920x1080</Text>
-        <Settings>window_size_x = 1920,window_size_y = 1080</Settings>
-      </Option>
-      <Option>
-        <Text>1920x1440</Text>
-        <Settings>window_size_x = 1920,window_size_y = 1440</Settings>
-      </Option>
-      <Option>
-        <Text>2048x1536</Text>
-        <Settings>window_size_x = 2048,window_size_y = 1536</Settings>
-      </Option>
-      <Option>
-        <Text>2560x1440</Text>
-        <Settings>window_size_x = 2560,window_size_y = 1440</Settings>
-      </Option>
-      <Option>
-        <Text>2560x1920</Text>
-        <Settings>window_size_x = 2560,window_size_y = 1920</Settings>
-      </Option>
-      <Option>
-        <Text>2880x2160</Text>
-        <Settings>window_size_x = 2880,window_size_y = 2160</Settings>
-      </Option>
-      <Option>
-        <Text>3840x2160</Text>
-        <Settings>window_size_x = 3840,window_size_y = 2160</Settings>
-      </Option>
-    </Setting>
-
-  <Setting xsi:type="DropDown">
-    <Group>Grafik</Group>
-    <Name>Fenstermodus</Name>
-    <Description>Spiel im Fenstermodus oder Vollbild Starten.</Description>
-    <DefaultValue>fullscreen = no</DefaultValue>
+    <Description>Fenstergröße (oder Vollbildauflösung) für das Spiel. Automatisch verwendet die Spielauflösung für den Fenstermodus und die aktuelle Desktopauflösung für Vollbild.</Description>
+    <DefaultValue>window_size_x = 1280,window_size_y = 720</DefaultValue>
     <Option>
-      <Text>Fenstermodus</Text>
-      <Settings>fullscreen = no</Settings>
+      <Text>Automatisch</Text>
+      <Settings>window_size_x = 0,window_size_y = 0</Settings>
     </Option>
     <Option>
-      <Text>Vollbild</Text>
-      <Settings>fullscreen = yes</Settings>
+      <Text>640x480</Text>
+      <Settings>window_size_x = 640,window_size_y = 480</Settings>
+    </Option>
+    <Option>
+      <Text>800x600</Text>
+      <Settings>window_size_x = 800,window_size_y = 600</Settings>
+    </Option>
+    <Option>
+      <Text>1024x768</Text>
+      <Settings>window_size_x = 1024,window_size_y = 768</Settings>
+    </Option>
+    <Option>
+      <Text>1280x720</Text>
+      <Settings>window_size_x = 1280,window_size_y = 720</Settings>
+    </Option>
+    <Option>
+      <Text>1280x960</Text>
+      <Settings>window_size_x = 1280,window_size_y = 960</Settings>
+    </Option>
+    <Option>
+      <Text>1400x1050</Text>
+      <Settings>window_size_x = 1400,window_size_y = 1050</Settings>
+    </Option>
+    <Option>
+      <Text>1440x1080</Text>
+      <Settings>window_size_x = 1440,window_size_y = 1080</Settings>
+    </Option>
+    <Option>
+      <Text>1600x1200</Text>
+      <Settings>window_size_x = 1600,window_size_y = 1200</Settings>
+    </Option>
+    <Option>
+      <Text>1920x1080</Text>
+      <Settings>window_size_x = 1920,window_size_y = 1080</Settings>
+    </Option>
+    <Option>
+      <Text>1920x1440</Text>
+      <Settings>window_size_x = 1920,window_size_y = 1440</Settings>
+    </Option>
+    <Option>
+      <Text>2048x1536</Text>
+      <Settings>window_size_x = 2048,window_size_y = 1536</Settings>
+    </Option>
+    <Option>
+      <Text>2560x1440</Text>
+      <Settings>window_size_x = 2560,window_size_y = 1440</Settings>
+    </Option>
+    <Option>
+      <Text>2560x1920</Text>
+      <Settings>window_size_x = 2560,window_size_y = 1920</Settings>
+    </Option>
+    <Option>
+      <Text>2880x2160</Text>
+      <Settings>window_size_x = 2880,window_size_y = 2160</Settings>
+    </Option>
+    <Option>
+      <Text>3840x2160</Text>
+      <Settings>window_size_x = 3840,window_size_y = 2160</Settings>
     </Option>
   </Setting>
 
   <Setting xsi:type="DropDown">
     <Group>Grafik</Group>
-    <Name>Seitenverhältniss</Name>
-    <Description>Seitenverhältniss beibehalten fügt links und rechts schwarze Balken hinzu um das 4:3 Format beizubehalten.</Description>
-    <DefaultValue>preserve_aspect = yes</DefaultValue>
+    <Name>Fenstermodus</Name>
+    <Description>Spiel im Fenstermodus oder Vollbild Starten.</Description>
+    <DefaultValue>fullscreen = false</DefaultValue>
     <Option>
-      <Text>Seitenverhältnis beibehalten 4:3</Text>
-      <Settings>preserve_aspect = yes</Settings>
+      <Text>Fenstermodus</Text>
+      <Settings>fullscreen = false</Settings>
+    </Option>
+    <Option>
+      <Text>Vollbild</Text>
+      <Settings>fullscreen = true</Settings>
+    </Option>
+  </Setting>
+
+  <Setting xsi:type="DropDown">
+    <Group>Grafik</Group>
+    <Name>Seitenverhältnis</Name>
+    <Description>'Nativ' fügt links und rechts schwarze Balken hinzu, um das 4:3 Format beizubehalten.</Description>
+    <DefaultValue>preserve_aspect = true</DefaultValue>
+    <Option>
+      <Text>Nativ (4:3)</Text>
+      <Settings>preserve_aspect = true</Settings>
     </Option>
     <Option>
       <Text>Zum Füllen dehnen</Text>
-      <Settings>preserve_aspect = no</Settings>
+      <Settings>preserve_aspect = false</Settings>
     </Option>
   </Setting>
 
@@ -128,7 +136,7 @@
     <Description>Wendet 2x / 4x / 8x / 16x MSAA-Filterung an. Reduziert gezackte Kanten und verbessert die Bildqualität. Kann die Leistung stark beeinträchtigen.</Description>
     <DefaultValue>enable_antialiasing = 0</DefaultValue>
     <Option>
-      <Text>aus</Text>
+      <Text>Aus</Text>
       <Settings>enable_antialiasing = 0</Settings>
     </Option>
     <Option>
@@ -151,29 +159,29 @@
 
   <Setting xsi:type="Checkbox">
     <Group>Grafik</Group>
-    <Name>Anisotropisches Filtern</Name>
-    <Description>Verwende mipmaps für high-res Texturen. Kann die Leistung und Qualität verbessern, aber benötigt mehr Texturspeicher.</Description>
-    <DefaultValue>enable_anisotropic = yes</DefaultValue>
-    <TrueSetting>enable_anisotropic = yes</TrueSetting>
-    <FalseSetting>enable_anisotropic = no</FalseSetting>
+    <Name>Anisotropische Filterung</Name>
+    <Description>Wendet einen filter auf hochauflösende Texturen an. Kann die Leistung und Qualität verbessern, aber benötigt mehr Texturspeicher.</Description>
+    <DefaultValue>enable_anisotropic = true</DefaultValue>
+    <TrueSetting>enable_anisotropic = true</TrueSetting>
+    <FalseSetting>enable_anisotropic = false</FalseSetting>
   </Setting>
 
   <Setting xsi:type="Checkbox">
     <Group>Grafik</Group>
-    <Name>Lineares Filtern</Name>
-    <Description>Kann low Texturen verbessern. Nicht mit High Quallity Texturen verwenden. Bei Grafikfehlern, deaktivieren.</Description>
-    <DefaultValue>linear_filter = no</DefaultValue>
-    <TrueSetting>linear_filter = yes</TrueSetting>
-    <FalseSetting>linear_filter = no</FalseSetting>
+    <Name>Lineare Filterung</Name>
+    <Description>Wendet einen Filter auf niedrig aufgelöste Texturen an. Artefakte können auftreten. Wird nicht auf hochauflösende Texturen angewendet.</Description>
+    <DefaultValue>linear_filter = false</DefaultValue>
+    <TrueSetting>linear_filter = true</TrueSetting>
+    <FalseSetting>linear_filter = false</FalseSetting>
   </Setting>
 
   <Setting xsi:type="Checkbox">
     <Group>Grafik</Group>
     <Name>Vertikale Syncronisierung</Name>
-    <Description>Bildwiederholungsrate mit dem Monitor syncronisieren. Kann negative auswirkungen auf die Leistung haben. Ausschalten, fals Bildstörungen auftreten. *Grenzen Geschwindigkeit Betrügen!*</Description>
-    <DefaultValue>enable_vsync = no</DefaultValue>
-    <TrueSetting>enable_vsync = yes</TrueSetting>
-    <FalseSetting>enable_vsync = no</FalseSetting>
+    <Description>Bildwiederholungsrate mit dem Monitor synchronisieren. Kann negative Auswirkungen auf die Leistung haben und 60fps Mods unbrauchbar machen. Einschalten, wenn Screen Tearing auftritt. *Begrenzt den Speed Hack!*</Description>
+    <DefaultValue>enable_vsync = false</DefaultValue>
+    <TrueSetting>enable_vsync = true</TrueSetting>
+    <FalseSetting>enable_vsync = false</FalseSetting>
   </Setting>
 
   <!-- CHEATS TAB -->
@@ -190,19 +198,8 @@
 
   <Setting xsi:type="DropDown">
     <Group>Cheats</Group>
-    <Name>Movies Uberspringen</Name>
-    <Description>Nicht konfigurierbar. Springt sofort zum Ende eines Movies.{0}Verwendung: STRG+S oder Wählen Sie+Anfang</Description>
-    <DefaultValue></DefaultValue>
-    <Option>
-      <Text>Siehe Beschreibung</Text>
-      <Settings></Settings>
-    </Option>
-  </Setting>
-  
-  <Setting xsi:type="DropDown">
-    <Group>Cheats</Group>
-    <Name>Schnell Zurücksetzen</Name>
-    <Description>Nicht konfigurierbar. Resettet das Spiel durch ein sofortiges Game Over.{0}Verwendung: STRG+R oder L1+L2+R1+R2+Wählen Sie+Anfang</Description>
+    <Name>Filme Uberspringen</Name>
+    <Description>Nicht konfigurierbar. Springt sofort zum Ende eines Films.{0}Verwendung: STRG+S oder Select+Start</Description>
     <DefaultValue></DefaultValue>
     <Option>
       <Text>Siehe Beschreibung</Text>
@@ -212,8 +209,19 @@
 
   <Setting xsi:type="DropDown">
     <Group>Cheats</Group>
-    <Name>Geschwindigkeitssteigerung</Name>
-    <Description>Höhe der Spielgeschwindigkeitssteigerung pro Tastendruck. Verwendung: STRG+Auf/Ab oder L2+R2+Auf/Ab zum Ändern der Geschwindigkeit STRG+Links/Rechts oder L2+R2+Links/Rechts zum Ein- und Ausschalten.</Description>
+    <Name>Soft Reset</Name>
+    <Description>Nicht konfigurierbar. Setzt das Spiel durch ein sofortiges Game Over zurück.{0}Verwendung: STRG+R oder L1+L2+R1+R2+Select+Start</Description>
+    <DefaultValue></DefaultValue>
+    <Option>
+      <Text>Siehe Beschreibung</Text>
+      <Settings></Settings>
+    </Option>
+  </Setting>
+
+  <Setting xsi:type="DropDown">
+    <Group>Cheats</Group>
+    <Name>Speed Hack Schrittweite</Name>
+    <Description>Höhe der Spielgeschwindigkeitssteigerung pro Tastendruck. Verwendung: STRG+Auf/Ab oder L2+R2+Auf/Ab zum Ändern der Geschwindigkeit, STRG+Links/Rechts oder L2+R2+Links/Rechts zum Ein- und Ausschalten.</Description>
     <DefaultValue>speedhack_step = 1.0</DefaultValue>
     <Option>
       <Text>0.5</Text>
@@ -231,7 +239,7 @@
 
   <Setting xsi:type="DropDown">
     <Group>Cheats</Group>
-    <Name>Maximale Geschwindigkeit</Name>
+    <Name>Speed Hack Maximum</Name>
     <Description>Die maximale Geschwindigkeit, die eingestellt werden kann, bevor zur normalen Geschwindigkeit zurückgekehrt wird.</Description>
     <DefaultValue>speedhack_max = 7.0</DefaultValue>
     <Option>
@@ -264,76 +272,69 @@
   <Setting xsi:type="DropDown">
     <Group>Erweitert</Group>
     <Name>Musik Einstellung</Name>
-    <Description>Wähle VGMStream um OGG Vorbis high-quality Musik zu aktivieren. Wird für Musik Mods benötigt. Ansonsten wird die Stadart MIDI abgespielt.</Description>
-    <DefaultValue>use_external_music = yes</DefaultValue>
+    <Description>Nutze VGMStream, um hochqualitative OGG Vorbis Musik abzuspielen. Wird für Musik-Mods benötigt. Andernfalls wird Standard MIDI abgespielt.</Description>
+    <DefaultValue>use_external_music = true</DefaultValue>
     <Option>
       <Text>VGMStream (Empfohlen)</Text>
-      <Settings>use_external_music = yes</Settings>
+      <Settings>use_external_music = true</Settings>
     </Option>
     <Option>
       <Text>Original MIDI</Text>
-      <Settings>use_external_music = no</Settings>
+      <Settings>use_external_music = false</Settings>
     </Option>
   </Setting>
 
   <Setting xsi:type="DropDown">
     <Group>Erweitert</Group>
-    <Name>Movies Optionen</Name>
-    <Description>FFMPEG für das abspielen der Movies im Spiel(FMVs) verwenden. Oder den orginal Renderer, welcher eventuell nicht alle Movie Mods unterstützt.</Description>
+    <Name>Film Einstellung</Name>
+    <Description>FFMPEG für das Abspielen der Filmdateien im Spiel(FMVs) verwenden oder den orginal Renderer, welcher eventuell nicht so viele Codecs unterstützt.</Description>
     <DefaultValue>enable_ffmpeg_videos = yes</DefaultValue>
     <Option>
       <Text>FFMPEG (Empfohlen)</Text>
-      <Settings>enable_ffmpeg_videos = yes</Settings>
+      <Settings>enable_ffmpeg_videos = true</Settings>
     </Option>
     <Option>
       <Text>Original Renderer</Text>
-      <Settings>enable_ffmpeg_videos = no</Settings>
+      <Settings>enable_ffmpeg_videos = false</Settings>
     </Option>
   </Setting>
 
-  <Setting xsi:type="Checkbox">
-    <Group>Erweitert</Group>
-    <Name>Ausgefallene Transparenz</Name>
-    <Description>Aktivieren Sie die Alpha-Überblendung für Texturen ohne vorhandenen Überblendungseffekt. Erforderlich für einige Mods.</Description>
-    <DefaultValue>fancy_transparency = yes</DefaultValue>
-    <TrueSetting>fancy_transparency = yes</TrueSetting>
-    <FalseSetting>fancy_transparency = no</FalseSetting>
-  </Setting>
+
 
   <Setting xsi:type="Checkbox">
     <Group>Erweitert</Group>
-    <Name>Status anzeigen</Name>
-    <Description>Blendet einen Overlayer mit aktuellen Debug Informationen.</Description>
-    <DefaultValue>show_stats = no</DefaultValue>
-    <TrueSetting>show_stats = yes</TrueSetting>
-    <FalseSetting>show_stats = no</FalseSetting>
+    <Name>Debuginformationen anzeigen</Name>
+    <Description>Zeigt Echtzeitinformationen über Renderprozess/Performance in einem Overlay oder in der Titelleiste an.</Description>
+    <DefaultValue>show_stats = false</DefaultValue>
+    <TrueSetting>show_stats = true</TrueSetting>
+    <FalseSetting>show_stats = false</FalseSetting>
   </Setting>
 
   <Setting xsi:type="Checkbox">
     <Group>Erweitert</Group>
     <Name>Treiberversion anzeigen</Name>
     <Description>Zeigt die aktuell verwendete Treiberversion in einem Overlay oder in der Titelleiste an.</Description>
-    <DefaultValue>show_version = no</DefaultValue>
-    <TrueSetting>show_version = yes</TrueSetting>
-    <FalseSetting>show_version = no</FalseSetting>
+    <DefaultValue>show_version = false</DefaultValue>
+    <TrueSetting>show_version = true</TrueSetting>
+    <FalseSetting>show_version = false</FalseSetting>
   </Setting>
 
   <Setting xsi:type="Checkbox">
     <Group>Erweitert</Group>
     <Name>FPS anzeigen</Name>
-    <Description>Zeigt die FPS Rechts oben in der Ecke an.</Description>
-    <DefaultValue>show_fps = no</DefaultValue>
-    <TrueSetting>show_fps = yes</TrueSetting>
-    <FalseSetting>show_fps = no</FalseSetting>
+    <Description>Zeigt die FPS in einem Overlay oder in der Titelleiste an.</Description>
+    <DefaultValue>show_fps = false</DefaultValue>
+    <TrueSetting>show_fps = true</TrueSetting>
+    <FalseSetting>show_fps = false</FalseSetting>
   </Setting>
 
   <Setting xsi:type="Checkbox">
     <Group>Erweitert</Group>
     <Name>Grafik-API anzeigen</Name>
-    <Description>Zeigt die aktuell verwendete Grafik-API (OpenGL / DirectX11) in einem Overlay oder in der Titelleiste an.</Description>
-    <DefaultValue>show_renderer_backend = no</DefaultValue>
-    <TrueSetting>show_renderer_backend = yes</TrueSetting>
-    <FalseSetting>show_renderer_backend = no</FalseSetting>
+    <Description>Zeigt die aktuell verwendete Grafik-API (OpenGL / DirectX11/etc.) in einem Overlay oder in der Titelleiste an.</Description>
+    <DefaultValue>show_renderer_backend = false</DefaultValue>
+    <TrueSetting>show_renderer_backend = true</TrueSetting>
+    <FalseSetting>show_renderer_backend = false</FalseSetting>
   </Setting>
 
 </ConfigSpec>

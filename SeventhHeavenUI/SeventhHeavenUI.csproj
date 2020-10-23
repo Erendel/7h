@@ -325,6 +325,12 @@
     <Content Include="Resources\Game Driver\FFNx.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\Game Driver\music\vgmstream\config.toml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Game Driver\sfx\config.toml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\Game Driver\hext\ff7\en\FFNx.FIELD.vertical_center.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1080,7 +1086,7 @@
     <Content Include="Resources\Game Driver\shaders\FFNx.smooth.d3d9.vert">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\Game Driver\GameDriver.cfg">
+    <Content Include="Resources\Game Driver\GameDriver.toml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="7H.ico" />
