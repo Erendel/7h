@@ -168,15 +168,6 @@
 
   <Setting xsi:type="Checkbox">
     <Group>Gráficos</Group>
-    <Name>Filtragem Linear</Name>
-    <Description>Talvez melhore a qualidade de texturas de baixa resolução. Não recomendado quando utilizando mods de alta resolução. Se artefatos roxos ou cianos aparecerem no campo, desative esta opção.</Description>
-    <DefaultValue>linear_filter = false</DefaultValue>
-    <TrueSetting>linear_filter = true</TrueSetting>
-    <FalseSetting>linear_filter = false</FalseSetting>
-  </Setting>
-
-  <Setting xsi:type="Checkbox">
-    <Group>Gráficos</Group>
     <Name>Sincronização Vertical</Name>
     <Description>Sincroniza a taxa de quadros do jogo com a taxa de atualização do monitor. Pode afetar negativamente a performance ou quebrar mods de 60 fps. Ative se estiver acontecendo Screen Tearing. *Limita a Trapaça de Velocidade!*</Description>
     <DefaultValue>enable_vsync = false</DefaultValue>

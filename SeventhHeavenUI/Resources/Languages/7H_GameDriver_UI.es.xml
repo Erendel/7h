@@ -168,15 +168,6 @@
 
   <Setting xsi:type="Checkbox">
     <Group>Gráficos</Group>
-    <Name>Filtrado Lineal</Name>
-    <Description>Puede mejorar las texturas de baja resolución. No se recomienda usar mientras se encuentren Mods de alta resolución activos. Si ves artefactos de color cían o morado en los mapas, desactiva esta opción.</Description>
-    <DefaultValue>linear_filter = false</DefaultValue>
-    <TrueSetting>linear_filter = true</TrueSetting>
-    <FalseSetting>linear_filter = false</FalseSetting>
-  </Setting>
-
-  <Setting xsi:type="Checkbox">
-    <Group>Gráficos</Group>
     <Name>Sincronización Vertical</Name>
     <Description>Sincroniza la velocidad de fotogramas del juego con la tasa de refresco de tu monitor. Puede reducir el rendimiento o romper Mods de 60 Fps. Activa esta opción si experimentas cortes en la pantalla. *¡Limita el Truco de Velocidad!*</Description>
     <DefaultValue>enable_vsync = false</DefaultValue>

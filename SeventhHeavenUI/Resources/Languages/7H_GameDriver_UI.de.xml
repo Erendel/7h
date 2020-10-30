@@ -168,15 +168,6 @@
 
   <Setting xsi:type="Checkbox">
     <Group>Grafik</Group>
-    <Name>Lineare Filterung</Name>
-    <Description>Wendet einen Filter auf niedrig aufgelöste Texturen an. Artefakte können auftreten. Wird nicht auf hochauflösende Texturen angewendet.</Description>
-    <DefaultValue>linear_filter = false</DefaultValue>
-    <TrueSetting>linear_filter = true</TrueSetting>
-    <FalseSetting>linear_filter = false</FalseSetting>
-  </Setting>
-
-  <Setting xsi:type="Checkbox">
-    <Group>Grafik</Group>
     <Name>Vertikale Syncronisierung</Name>
     <Description>Bildwiederholungsrate mit dem Monitor synchronisieren. Kann negative Auswirkungen auf die Leistung haben und 60fps Mods unbrauchbar machen. Einschalten, wenn Screen Tearing auftritt. *Begrenzt den Speed Hack!*</Description>
     <DefaultValue>enable_vsync = false</DefaultValue>

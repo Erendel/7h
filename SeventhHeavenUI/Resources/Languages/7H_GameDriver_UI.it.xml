@@ -168,15 +168,6 @@
 
   <Setting xsi:type="Checkbox">
     <Group>Grafica</Group>
-    <Name>Filtro Lineare</Name>
-    <Description>Può migliorare la qualità delle texture a bassa risoluzione. Non raccomandato se sono attive mod con texture ad alta risoluzione. Se si verificano degli artefatti viola o azzurri disabilita quest'opzione.</Description>
-    <DefaultValue>linear_filter = false</DefaultValue>
-    <TrueSetting>linear_filter = true</TrueSetting>
-    <FalseSetting>linear_filter = false</FalseSetting>
-  </Setting>
-
-  <Setting xsi:type="Checkbox">
-    <Group>Grafica</Group>
     <Name>V-Sync</Name>
     <Description>Sincronizza il framerate del gioco con la frequenza d'aggiornamento dello schermo. Potrebbe influire negativamente sulle performance di gioco o rendere le mod che fanno uso di 60 fps inutilizzabili. Attivare solo se si percepisce dello screen tearing. *Limita la Velocità dei Trucchi!*</Description>
     <DefaultValue>enable_vsync = false</DefaultValue>

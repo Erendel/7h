@@ -168,15 +168,6 @@
 
   <Setting xsi:type="Checkbox">
     <Group>Graphics</Group>
-    <Name>Linear Filtering</Name>
-    <Description>Apply a filter to low resolution textures. Artifacts may occur. High resolution textures are not affected.</Description>
-    <DefaultValue>linear_filter = false</DefaultValue>
-    <TrueSetting>linear_filter = true</TrueSetting>
-    <FalseSetting>linear_filter = false</FalseSetting>
-  </Setting>
-
-  <Setting xsi:type="Checkbox">
-    <Group>Graphics</Group>
     <Name>Vertical Sync</Name>
     <Description>Sync the frame rate of the game with the monitor refresh rate. May negatively impact performance or break 60 fps mods. Turn on if you experience screen tearing. *Limits Speed Hack!*</Description>
     <DefaultValue>enable_vsync = false</DefaultValue>

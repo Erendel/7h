@@ -168,15 +168,6 @@
 
   <Setting xsi:type="Checkbox">
     <Group>Γραφικά</Group>
-    <Name>Γραμμικό φιλτράρισμα</Name>
-    <Description>Εφαρμόζει ένα φίλτρο σε υφές χαμηλής ανάλυσης. Μπορεί να εμφανιστούν αντικείμενα. Οι υφές υψηλής ανάλυσης δεν επηρεάζονται.</Description>
-    <DefaultValue>linear_filter = false</DefaultValue>
-    <TrueSetting>linear_filter = true</TrueSetting>
-    <FalseSetting>linear_filter = false</FalseSetting>
-  </Setting>
-
-  <Setting xsi:type="Checkbox">
-    <Group>Γραφικά</Group>
     <Name>Κατακόρυφος συγχρονισμός</Name>
     <Description>Συγχρονίζει το ρυθμό καρέ του παιχνιδιού με το ρυθμό ανανέωσης της οθόνης. Μπορεί να μειώσει την απόδοση ή να σπάσει τις λειτουργίες 60 fps. Ενεργοποιήστε εάν έχετε δάκρυ στην οθόνη. *Όρια ταχύτητας εξαπάτησης!*</Description>
     <DefaultValue>enable_vsync = false</DefaultValue>
